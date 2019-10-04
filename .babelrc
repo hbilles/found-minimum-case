@@ -1,0 +1,26 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    "@babel/plugin-syntax-jsx",
+    "@babel/plugin-proposal-class-properties",
+    "react-hot-loader/babel",
+    "transform-react-handled-props",
+    "@babel/plugin-transform-react-display-name",
+    "@babel/plugin-transform-react-jsx",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-syntax-import-meta",
+    [
+      "@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    "@babel/plugin-proposal-function-sent",
+    "@babel/plugin-proposal-export-namespace-from",
+    "@babel/plugin-proposal-numeric-separator",
+    "@babel/plugin-proposal-throw-expressions"
+  ]
+}
