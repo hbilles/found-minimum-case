@@ -12,14 +12,14 @@
     "@babel/polyfill": "^7.6.0",
     "@babel/runtime": "^7.6.0",
     "core-js": "^3.2.1",
-    "farce": "^0.2.6",
-    "found": "^0.3.21",
+    "farce": "^0.2.8",
+    "found": "^0.4.9",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-hot-loader": "^4.12.14",
-    "react-redux": "^5.1.1",
-    "redux": "^4.0.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
     "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {
